@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "realstate-services": "file:inmosanvi-services-lite-master"
+  }
+}
