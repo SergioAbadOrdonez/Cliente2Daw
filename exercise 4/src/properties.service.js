@@ -11,11 +11,15 @@ export class PropertiesService {
 
   async insertProperty(propertyObj){
     const resp = await this.#http.post(`${SERVER}/properties`,propertyObj);
-    return resp.property;
+    return resp.propertyObj;
   }
 
   async deleteProperty(propertyID){
     const resp = await this.#http.delete(`${SERVER}/properties/${propertyID}`);
-    return resp.property;
   }
 }
+
+const service = new PropertiesService();
+const properties = await service.getProperties();
+console.log(properties);
+

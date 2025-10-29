@@ -11,12 +11,6 @@ export class ProvincesService {
 
   async getTowns(idProvince){
     const resp = await this.#http.get(`${SERVER}/provinces/${idProvince}/towns`);
-    return resp.province;
+    return resp.towns;
   }
 }
-
-const service = new ProvincesService();
-
-const provinces12 = await service.getProvinces();
-
-console.log(provinces12);
