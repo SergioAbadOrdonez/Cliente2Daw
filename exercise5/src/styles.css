@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import "./node_modules/ol/ol.css";
 
 select:user-invalid,
 input:user-invalid {
