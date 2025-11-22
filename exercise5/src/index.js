@@ -36,19 +36,6 @@ function addProperty(property) {
             return;
         }
         await propertiesService.deleteProperty(property.id);
-        /*
-        *
-        *
-        * *
-        * **
-        * Preguntar al profe si esto vale
-        * **
-        * ***
-        * *
-        * *
-        * *
-        * *
-        * */
         location.reload();
     });
     list.appendChild(clone);

@@ -1,0 +1,14 @@
+{
+  "model": "llama3",
+  "stream": false,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Eres un asistente experto en nutrición y entrenamiento de gimnasio."
+    },
+    {
+      "role": "user",
+      "content": "Hazme una dieta alta en proteínas para ganar músculo, entreno 4 días a la semana."
+    }
+  ]
+}

@@ -19,7 +19,3 @@ export class PropertiesService {
   }
 }
 
-const service = new PropertiesService();
-const properties = await service.getProperties();
-console.log(properties);
-
